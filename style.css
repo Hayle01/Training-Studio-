@@ -295,22 +295,19 @@ header {
     display: flex;
     align-items: center;
     gap: 1.5rem;
-    padding: 30px;
+    padding: 20px;
     background-color: #FFFFFF;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
 }
 .trainig-class-5{
     width: 100%;
-    display: flex;
-    align-items: center;
     gap: 1.5rem;
-    padding: 30px;
+    padding: 20px;
     background-color: #ED563b;
+    text-align: center;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
     color: #FFFFFF;
 }
 .training-classes img{
@@ -357,6 +354,10 @@ header {
     font-size: 1.2rem;
     text-transform: uppercase;
     cursor: pointer;
+}
+.right-c .trainig-details .view-btn:hover{
+    background-color: #ED563b;
+    opacity: 0.8;
 }
 
 /* class schadule section */
@@ -612,7 +613,7 @@ footer p span{
         display: none;
     }
     .menu-links[data-visible="true"]{
-        transform: translateY(41%);
+        transform: translateY(40%);
         transition: 300ms ease-in-out;
     }
     .hamburger i[data-visible="true"]{
@@ -705,7 +706,7 @@ footer p span{
         height: 100%;
     }
     .view-btn{
-        /* padding: 10px 22px; */
+        padding: 10px 22px;
     }
     .training-classes h2{
         font-size: 1rem;
