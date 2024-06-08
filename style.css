@@ -177,10 +177,6 @@ header {
     align-items: center;
     gap: 30px;
 }
-.program .icon img{
-    width: 100%;
-    
-}
 .program .details{
     display: flex;
     flex-direction: column;
